@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /home/vlad/projects/deps-bumper/src/main/java/com/volvo/bumper -type f -name *.java)",
+      "Bash(find /home/vlad/projects/deps-bumper/src/test/java/com/volvo/bumper -type f -name *.java)",
+      "Bash(mvn verify:*)"
+    ]
+  }
+}

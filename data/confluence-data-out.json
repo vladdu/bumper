@@ -1,0 +1,46 @@
+{
+  "repos": [
+    {
+      "repos": ["vgcs-platform-core"],
+      "lastBumpDate": "2026-02-14",
+      "lastBumpBy": "bob",
+      "bumpers": [],
+      "team": "platform-team",
+      "comments": "Core platform library",
+      "extra": {}
+    },
+    {
+      "repos": ["vgt/connectivity/auth-service"],
+      "lastBumpDate": "2026-01-20",
+      "lastBumpBy": "anton",
+      "bumpers": [],
+      "team": "security-team",
+      "comments": "Authentication service",
+      "extra": { "criticality": "high" }
+    },
+    {
+      "repos": ["vgcs-payments-gateway"],
+      "lastBumpDate": "2026-03-18",
+      "lastBumpBy": "alice",
+      "bumpers": ["alice", "bob"],
+      "team": "payments-team",
+      "comments": "Payment processing gateway",
+      "extra": {}
+    },
+    {
+      "repos": ["vgt/connectivity/notification-service"],
+      "lastBumpDate": "2026-03-19",
+      "lastBumpBy": "bob",
+      "bumpers": [],
+      "team": "infra-team",
+      "comments": "Async notification dispatcher",
+      "extra": {}
+    }
+  ],
+  "ignored": [
+    { "repos": ["vgt/connectivity/deprecated-sync"] },
+    { "repos": ["vgcs-search-service"] },
+    { "repos": ["vgt/connectivity/legacy-api"] },
+    { "repos": ["vgcs-old-monolith"] }
+  ]
+}

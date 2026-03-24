@@ -1,0 +1,4 @@
+org.springframework.boot.EnvironmentPostProcessor=\
+  com.volvo.bumper.config.DotenvEnvironmentPostProcessor
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+  com.volvo.bumper.config.CommandNotFoundAnalyzer

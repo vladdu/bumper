@@ -1,0 +1,9 @@
+{
+  "vgt/connectivity/auth-service": {
+    "lastDependencyUpdate": "2026-01-20",
+    "lastDependencyUpdateBy": "anton"
+  },
+  "vgt/connectivity/notification-service": {
+    "lastDependencyUpdate": "2026-01-20"
+  }
+}

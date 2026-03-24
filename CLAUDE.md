@@ -1,0 +1,9 @@
+- NEVER change a test to make it pass, unless requirements and assumptions have changed
+- NEVER hardcode values in test so that it passes
+- ALWAYS write tests for the code you write
+- Keep code simple and readable; avoid long functions
+- Write documentation for public APIs
+- structure test files just like their corresponding source files
+- ALWAYS verify changes by running tests, linter and type checker
+- Never guess or invent APIs and libraries; always check the documentation or the file system; it is ok to say "I don't know" and ask for help
+- Always use mvn, instead of ./mvnw or ./gradlew

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "auth-service",
+    "forgeUrl": "https://git.vgt.volvo.com/admin/repos/vgt/connectivity/auth-service"
+  },
+  {
+    "name": "notification-service",
+    "forgeUrl": "https://git.vgt.volvo.com/admin/repos/vgt/connectivity/notification-service"
+  },
+  {
+    "name": "legacy-api",
+    "forgeUrl": "https://git.vgt.volvo.com/admin/repos/vgt/connectivity/legacy-api"
+  },
+  {
+    "name": "deprecated-sync",
+    "forgeUrl": "https://git.vgt.volvo.com/admin/repos/vgt/connectivity/deprecated-sync"
+  }
+]
